@@ -1,0 +1,49 @@
+{
+  "name": "@nico-i/tsconfig",
+  "version": "1.0.0",
+  "description": "My tsconfig(s).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nico-i/tsconfig.git"
+  },
+  "private": false,
+  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "directory": "configs"
+  },
+  "keywords": [
+    "tsconfig"
+  ],
+  "files": [
+    "configs/*"
+  ],
+  "author": "Nico Ismaili",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@nico-i/eslint-config": "2.7.0",
+    "@nico-i/prettier-config": "^1.0.2",
+    "@types/bun": "latest",
+    "commitlint-plugin-spend": "^1.0.1",
+    "eslint": "^9.14.0",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/nico-i/tsconfig/issues"
+  },
+  "homepage": "https://github.com/nico-i/tsconfig#readme"
+}

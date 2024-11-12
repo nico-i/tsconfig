@@ -29,7 +29,7 @@
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky && echo \"#!/bin/sh\nbunx --no -- commitlint --edit \\$1\" > .husky/commit-msg"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",

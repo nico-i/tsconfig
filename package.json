@@ -36,7 +36,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "@nico-i/eslint-config": "2.7.0",
+    "@nico-i/eslint-config": "2.10.0",
     "@nico-i/prettier-config": "^1.0.2",
     "@types/bun": "latest",
     "commitlint-plugin-spend": "^1.0.1",
